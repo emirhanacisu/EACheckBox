@@ -1,0 +1,6 @@
+framework module EACheckBox {
+  umbrella header "EACheckBox-umbrella.h"
+
+  export *
+  module * { export * }
+}

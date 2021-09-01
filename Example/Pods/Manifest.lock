@@ -1,0 +1,16 @@
+PODS:
+  - EACheckBox (0.1.0)
+
+DEPENDENCIES:
+  - EACheckBox (from `../`)
+
+EXTERNAL SOURCES:
+  EACheckBox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EACheckBox: b1ae82d5e421fecd2793d384d358169ed54a48c5
+
+PODFILE CHECKSUM: e0310c0d659138a894e43cc0cc45d889c8af1cc6
+
+COCOAPODS: 1.10.1

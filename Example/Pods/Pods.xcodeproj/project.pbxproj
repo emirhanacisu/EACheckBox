@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080B209B0F6932EF94DE1982AB5DFF9C /* Pods-EACheckBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58FAA3746402305C90D9234CAE06822C /* Pods-EACheckBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4767FC07F0205EB408A4E9E42D20B216 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		57738C5FEB5311DDACD0F610D1758ABD /* Pods-EACheckBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE76CDCB3AB6145D584DC157E8E3CA96 /* Pods-EACheckBox_Example-dummy.m */; };
+		58813A579839BF83129556D138502E85 /* Pods-EACheckBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D614A298C1CF2D590821E7AFE9D6FB /* Pods-EACheckBox_Tests-dummy.m */; };
+		642750A4F14D99CC5DD4A7A3542714C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		83BE95CF256F0D6F97CCE2E670E5096C /* EACheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 344C98CF1AFB01772207858EDFCF932A /* EACheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8605F64FD0AAD28FA15491CAEE29F5ED /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EB745D1AA9014E7B6299B65B659BF /* ReplaceMe.swift */; };
+		BE1DD6BA1708584F9D02CEB0814AE563 /* EACheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5900B8773AA9183C366E220554935B3 /* EACheckBox-dummy.m */; };
+		C98964B6608BA3CEB87174A7A8823228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CA070F925B0C9F948DC3168C47E208CD /* Pods-EACheckBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5BC5AEC52C45C2E3C33FF37F9FEBA21 /* Pods-EACheckBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35B19E7BA381222D0B0857CAA0534DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE79AE4D8CB8CE207B11F682E036CBCD;
+			remoteInfo = "Pods-EACheckBox_Example";
+		};
+		B3583CDDA981B57A0B1BFC5CF5B0C81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20BCD6D7D0A795D7E61EDB50E566BB48;
+			remoteInfo = EACheckBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03EFBBF09A64CAD45FECDF8E8BDD0A1E /* Pods-EACheckBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EACheckBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		084CC4AF14AF38DC5A77F094B9BE55E2 /* Pods-EACheckBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EACheckBox_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1DCEF83AF415D8D4490EB775C01D1F7F /* Pods-EACheckBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EACheckBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1EC6050F3F8BC355198B03B299ED9DFB /* Pods-EACheckBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EACheckBox_Example.modulemap"; sourceTree = "<group>"; };
+		23D614A298C1CF2D590821E7AFE9D6FB /* Pods-EACheckBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EACheckBox_Tests-dummy.m"; sourceTree = "<group>"; };
+		31762B0A93D4C419849D7099B02CB93F /* Pods-EACheckBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EACheckBox_Tests.modulemap"; sourceTree = "<group>"; };
+		32DC0A3EF8FD10F86575542C22703BD3 /* Pods-EACheckBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EACheckBox_Example-frameworks.sh"; sourceTree = "<group>"; };
+		344C98CF1AFB01772207858EDFCF932A /* EACheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EACheckBox-umbrella.h"; sourceTree = "<group>"; };
+		378D58CCD87FB7E33D2DCF47D3D07254 /* EACheckBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EACheckBox.framework; path = EACheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4622989001F83F9340188BA4A17ADE7D /* Pods-EACheckBox_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EACheckBox_Tests-Info.plist"; sourceTree = "<group>"; };
+		4A7EB745D1AA9014E7B6299B65B659BF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EACheckBox/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4CB2B0EF531A8338BD89B0F86AFC00F8 /* EACheckBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EACheckBox.debug.xcconfig; sourceTree = "<group>"; };
+		4DE2E155CDB1184CC229E5CFE421C26D /* Pods_EACheckBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EACheckBox_Tests.framework; path = "Pods-EACheckBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FAA3746402305C90D9234CAE06822C /* Pods-EACheckBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EACheckBox_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6395F0E3BFCA04F3DE6A133B3E935987 /* EACheckBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EACheckBox.release.xcconfig; sourceTree = "<group>"; };
+		6607BAA710C9204EA8D7EF684CF985E5 /* Pods-EACheckBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EACheckBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7458FA9227ED8FC568E59B6B711C80C6 /* Pods-EACheckBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EACheckBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		82B90E8DBAE043A0BA1396072E61668A /* Pods_EACheckBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EACheckBox_Example.framework; path = "Pods-EACheckBox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DB747E596E12DCC4672F3B78C60BF2 /* Pods-EACheckBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EACheckBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D0D70A1B7496375BF587D6B3B754114 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5D0AFDB8B7614254CF094F4010DABA9 /* EACheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EACheckBox-prefix.pch"; sourceTree = "<group>"; };
+		BCFA8B1851E5CB3E54C42741600E59D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BE363AEC98C85A47AF001CBDC1B0BB27 /* Pods-EACheckBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EACheckBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C38D5396C2DA23F406DD302A27C5C499 /* Pods-EACheckBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EACheckBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D65B836E0B61C0002875EA3FFA50480D /* EACheckBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EACheckBox-Info.plist"; sourceTree = "<group>"; };
+		DE76CDCB3AB6145D584DC157E8E3CA96 /* Pods-EACheckBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EACheckBox_Example-dummy.m"; sourceTree = "<group>"; };
+		E5992EF2CCA3E28A7DC98C186FA49A56 /* EACheckBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EACheckBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E7A6101E8146813C44D539C0FD33DC74 /* EACheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EACheckBox.modulemap; sourceTree = "<group>"; };
+		EB512AC0C9DBCB3DF65BC2A3E55DF455 /* Pods-EACheckBox_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EACheckBox_Example-Info.plist"; sourceTree = "<group>"; };
+		F5900B8773AA9183C366E220554935B3 /* EACheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EACheckBox-dummy.m"; sourceTree = "<group>"; };
+		F5BC5AEC52C45C2E3C33FF37F9FEBA21 /* Pods-EACheckBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EACheckBox_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12C484B27C7CCEC960A17BED0F450182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98964B6608BA3CEB87174A7A8823228 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F33E12FD3E35E6BD52B5F3A118330F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642750A4F14D99CC5DD4A7A3542714C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1A6B7EA906D5C977B20B6A00ED9828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4767FC07F0205EB408A4E9E42D20B216 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F963C473D582340AB794F631B19494E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7A6101E8146813C44D539C0FD33DC74 /* EACheckBox.modulemap */,
+				F5900B8773AA9183C366E220554935B3 /* EACheckBox-dummy.m */,
+				D65B836E0B61C0002875EA3FFA50480D /* EACheckBox-Info.plist */,
+				A5D0AFDB8B7614254CF094F4010DABA9 /* EACheckBox-prefix.pch */,
+				344C98CF1AFB01772207858EDFCF932A /* EACheckBox-umbrella.h */,
+				4CB2B0EF531A8338BD89B0F86AFC00F8 /* EACheckBox.debug.xcconfig */,
+				6395F0E3BFCA04F3DE6A133B3E935987 /* EACheckBox.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EACheckBox";
+			sourceTree = "<group>";
+		};
+		10FB4266C5C55E8ACC45D5DEDB8DE726 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38DB9D6784507ED04BFE76E33DF7B59F /* Pods-EACheckBox_Example */,
+				23C3E97F0085D2571F38FC7370A893BF /* Pods-EACheckBox_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1FED7CD3A7FC0CAC5AD7EC3E83E70BAC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E5992EF2CCA3E28A7DC98C186FA49A56 /* EACheckBox.podspec */,
+				BCFA8B1851E5CB3E54C42741600E59D8 /* LICENSE */,
+				8D0D70A1B7496375BF587D6B3B754114 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		23C362BC1FA210E91F306E8B129CDD38 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A95E2FA1C9EF7FE60E721EE074A00127 /* EACheckBox */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		23C3E97F0085D2571F38FC7370A893BF /* Pods-EACheckBox_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				31762B0A93D4C419849D7099B02CB93F /* Pods-EACheckBox_Tests.modulemap */,
+				BE363AEC98C85A47AF001CBDC1B0BB27 /* Pods-EACheckBox_Tests-acknowledgements.markdown */,
+				03EFBBF09A64CAD45FECDF8E8BDD0A1E /* Pods-EACheckBox_Tests-acknowledgements.plist */,
+				23D614A298C1CF2D590821E7AFE9D6FB /* Pods-EACheckBox_Tests-dummy.m */,
+				4622989001F83F9340188BA4A17ADE7D /* Pods-EACheckBox_Tests-Info.plist */,
+				58FAA3746402305C90D9234CAE06822C /* Pods-EACheckBox_Tests-umbrella.h */,
+				1DCEF83AF415D8D4490EB775C01D1F7F /* Pods-EACheckBox_Tests.debug.xcconfig */,
+				C38D5396C2DA23F406DD302A27C5C499 /* Pods-EACheckBox_Tests.release.xcconfig */,
+			);
+			name = "Pods-EACheckBox_Tests";
+			path = "Target Support Files/Pods-EACheckBox_Tests";
+			sourceTree = "<group>";
+		};
+		38DB9D6784507ED04BFE76E33DF7B59F /* Pods-EACheckBox_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1EC6050F3F8BC355198B03B299ED9DFB /* Pods-EACheckBox_Example.modulemap */,
+				83DB747E596E12DCC4672F3B78C60BF2 /* Pods-EACheckBox_Example-acknowledgements.markdown */,
+				6607BAA710C9204EA8D7EF684CF985E5 /* Pods-EACheckBox_Example-acknowledgements.plist */,
+				DE76CDCB3AB6145D584DC157E8E3CA96 /* Pods-EACheckBox_Example-dummy.m */,
+				32DC0A3EF8FD10F86575542C22703BD3 /* Pods-EACheckBox_Example-frameworks.sh */,
+				EB512AC0C9DBCB3DF65BC2A3E55DF455 /* Pods-EACheckBox_Example-Info.plist */,
+				F5BC5AEC52C45C2E3C33FF37F9FEBA21 /* Pods-EACheckBox_Example-umbrella.h */,
+				7458FA9227ED8FC568E59B6B711C80C6 /* Pods-EACheckBox_Example.debug.xcconfig */,
+				084CC4AF14AF38DC5A77F094B9BE55E2 /* Pods-EACheckBox_Example.release.xcconfig */,
+			);
+			name = "Pods-EACheckBox_Example";
+			path = "Target Support Files/Pods-EACheckBox_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A95E2FA1C9EF7FE60E721EE074A00127 /* EACheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				4A7EB745D1AA9014E7B6299B65B659BF /* ReplaceMe.swift */,
+				1FED7CD3A7FC0CAC5AD7EC3E83E70BAC /* Pod */,
+				0F963C473D582340AB794F631B19494E /* Support Files */,
+			);
+			name = EACheckBox;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				23C362BC1FA210E91F306E8B129CDD38 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E278B81671FC0A164644F872718108FB /* Products */,
+				10FB4266C5C55E8ACC45D5DEDB8DE726 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E278B81671FC0A164644F872718108FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				378D58CCD87FB7E33D2DCF47D3D07254 /* EACheckBox.framework */,
+				82B90E8DBAE043A0BA1396072E61668A /* Pods_EACheckBox_Example.framework */,
+				4DE2E155CDB1184CC229E5CFE421C26D /* Pods_EACheckBox_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6B9D0970362FE5825A265DDF01128494 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080B209B0F6932EF94DE1982AB5DFF9C /* Pods-EACheckBox_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E865D47F949F5C9A8CA1B2CA77A36010 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA070F925B0C9F948DC3168C47E208CD /* Pods-EACheckBox_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB720DAAB16C69639AC359370F3B9F66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BE95CF256F0D6F97CCE2E670E5096C /* EACheckBox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19E64B52389C364C852C2205E9781230 /* Pods-EACheckBox_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93A5F5F0BA572BBAA99AE14B3E18014 /* Build configuration list for PBXNativeTarget "Pods-EACheckBox_Tests" */;
+			buildPhases = (
+				6B9D0970362FE5825A265DDF01128494 /* Headers */,
+				84E51EFA08552DF70F9A35A50B215E37 /* Sources */,
+				BE1A6B7EA906D5C977B20B6A00ED9828 /* Frameworks */,
+				5C262FBB8D47839DC334E09A9497CC50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92D45B0400FFFC26D98ACBC5A40790B0 /* PBXTargetDependency */,
+			);
+			name = "Pods-EACheckBox_Tests";
+			productName = "Pods-EACheckBox_Tests";
+			productReference = 4DE2E155CDB1184CC229E5CFE421C26D /* Pods_EACheckBox_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		20BCD6D7D0A795D7E61EDB50E566BB48 /* EACheckBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75A9A9F5FCDC5D3B496C7B6CDABAB43 /* Build configuration list for PBXNativeTarget "EACheckBox" */;
+			buildPhases = (
+				EB720DAAB16C69639AC359370F3B9F66 /* Headers */,
+				EBC9DD5D42E0773BB6D1979F1DF3A53A /* Sources */,
+				14F33E12FD3E35E6BD52B5F3A118330F /* Frameworks */,
+				EDE8123C5CE146489F45A9C0E39B8311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EACheckBox;
+			productName = EACheckBox;
+			productReference = 378D58CCD87FB7E33D2DCF47D3D07254 /* EACheckBox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE79AE4D8CB8CE207B11F682E036CBCD /* Pods-EACheckBox_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 459A43DCBAAFE83456FF7B83BF3B593C /* Build configuration list for PBXNativeTarget "Pods-EACheckBox_Example" */;
+			buildPhases = (
+				E865D47F949F5C9A8CA1B2CA77A36010 /* Headers */,
+				FFDC820EC30C01BC504674812F3ECE97 /* Sources */,
+				12C484B27C7CCEC960A17BED0F450182 /* Frameworks */,
+				FF56253730EDC7690040AD8F81D97B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F4036404B9E15E186D5E1C2B288B315 /* PBXTargetDependency */,
+			);
+			name = "Pods-EACheckBox_Example";
+			productName = "Pods-EACheckBox_Example";
+			productReference = 82B90E8DBAE043A0BA1396072E61668A /* Pods_EACheckBox_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E278B81671FC0A164644F872718108FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20BCD6D7D0A795D7E61EDB50E566BB48 /* EACheckBox */,
+				FE79AE4D8CB8CE207B11F682E036CBCD /* Pods-EACheckBox_Example */,
+				19E64B52389C364C852C2205E9781230 /* Pods-EACheckBox_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C262FBB8D47839DC334E09A9497CC50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE8123C5CE146489F45A9C0E39B8311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF56253730EDC7690040AD8F81D97B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E51EFA08552DF70F9A35A50B215E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58813A579839BF83129556D138502E85 /* Pods-EACheckBox_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC9DD5D42E0773BB6D1979F1DF3A53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1DD6BA1708584F9D02CEB0814AE563 /* EACheckBox-dummy.m in Sources */,
+				8605F64FD0AAD28FA15491CAEE29F5ED /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDC820EC30C01BC504674812F3ECE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57738C5FEB5311DDACD0F610D1758ABD /* Pods-EACheckBox_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F4036404B9E15E186D5E1C2B288B315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EACheckBox;
+			target = 20BCD6D7D0A795D7E61EDB50E566BB48 /* EACheckBox */;
+			targetProxy = B3583CDDA981B57A0B1BFC5CF5B0C81B /* PBXContainerItemProxy */;
+		};
+		92D45B0400FFFC26D98ACBC5A40790B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EACheckBox_Example";
+			target = FE79AE4D8CB8CE207B11F682E036CBCD /* Pods-EACheckBox_Example */;
+			targetProxy = 35B19E7BA381222D0B0857CAA0534DDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		279CB1B4B3C89864EECA93C7CB9BE274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084CC4AF14AF38DC5A77F094B9BE55E2 /* Pods-EACheckBox_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EACheckBox_Example/Pods-EACheckBox_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EACheckBox_Example/Pods-EACheckBox_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		782C735251B6A18042C78A72203294D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CB2B0EF531A8338BD89B0F86AFC00F8 /* EACheckBox.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EACheckBox/EACheckBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EACheckBox/EACheckBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EACheckBox/EACheckBox.modulemap";
+				PRODUCT_MODULE_NAME = EACheckBox;
+				PRODUCT_NAME = EACheckBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B912F0E670B0CAF1662BEF31AC52AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38D5396C2DA23F406DD302A27C5C499 /* Pods-EACheckBox_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EACheckBox_Tests/Pods-EACheckBox_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EACheckBox_Tests/Pods-EACheckBox_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E935D322B71FD6A34320E125AE19DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6395F0E3BFCA04F3DE6A133B3E935987 /* EACheckBox.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EACheckBox/EACheckBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EACheckBox/EACheckBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EACheckBox/EACheckBox.modulemap";
+				PRODUCT_MODULE_NAME = EACheckBox;
+				PRODUCT_NAME = EACheckBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FAEEA2A0BB9D145AEF29164677C1742E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7458FA9227ED8FC568E59B6B711C80C6 /* Pods-EACheckBox_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EACheckBox_Example/Pods-EACheckBox_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EACheckBox_Example/Pods-EACheckBox_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF1CAD3302AF36CE78185CCA4809A439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DCEF83AF415D8D4490EB775C01D1F7F /* Pods-EACheckBox_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EACheckBox_Tests/Pods-EACheckBox_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EACheckBox_Tests/Pods-EACheckBox_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		459A43DCBAAFE83456FF7B83BF3B593C /* Build configuration list for PBXNativeTarget "Pods-EACheckBox_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEEA2A0BB9D145AEF29164677C1742E /* Debug */,
+				279CB1B4B3C89864EECA93C7CB9BE274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93A5F5F0BA572BBAA99AE14B3E18014 /* Build configuration list for PBXNativeTarget "Pods-EACheckBox_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1CAD3302AF36CE78185CCA4809A439 /* Debug */,
+				7B912F0E670B0CAF1662BEF31AC52AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75A9A9F5FCDC5D3B496C7B6CDABAB43 /* Build configuration list for PBXNativeTarget "EACheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782C735251B6A18042C78A72203294D5 /* Debug */,
+				7E935D322B71FD6A34320E125AE19DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
