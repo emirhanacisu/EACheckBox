@@ -12,9 +12,9 @@
 		57738C5FEB5311DDACD0F610D1758ABD /* Pods-EACheckBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE76CDCB3AB6145D584DC157E8E3CA96 /* Pods-EACheckBox_Example-dummy.m */; };
 		58813A579839BF83129556D138502E85 /* Pods-EACheckBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D614A298C1CF2D590821E7AFE9D6FB /* Pods-EACheckBox_Tests-dummy.m */; };
 		642750A4F14D99CC5DD4A7A3542714C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		83BE95CF256F0D6F97CCE2E670E5096C /* EACheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 344C98CF1AFB01772207858EDFCF932A /* EACheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8605F64FD0AAD28FA15491CAEE29F5ED /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EB745D1AA9014E7B6299B65B659BF /* ReplaceMe.swift */; };
-		BE1DD6BA1708584F9D02CEB0814AE563 /* EACheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5900B8773AA9183C366E220554935B3 /* EACheckBox-dummy.m */; };
+		83BE95CF256F0D6F97CCE2E670E5096C /* EACheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D2A75A65AF4A5C04B7401B81EE5E21 /* EACheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADDD463C1A2D698F7E1FFDD76ED306DF /* EACheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67734123B8A5B20EBE3323B6BA0ACE2F /* EACheckBox-dummy.m */; };
+		C6DC602FC9D2675A0F1A8FB0AC9FEB59 /* EACheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0C4034E0C9FA6B8A307C327DCF66A /* EACheckBox.swift */; };
 		C98964B6608BA3CEB87174A7A8823228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		CA070F925B0C9F948DC3168C47E208CD /* Pods-EACheckBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5BC5AEC52C45C2E3C33FF37F9FEBA21 /* Pods-EACheckBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -39,36 +39,36 @@
 /* Begin PBXFileReference section */
 		03EFBBF09A64CAD45FECDF8E8BDD0A1E /* Pods-EACheckBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EACheckBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		084CC4AF14AF38DC5A77F094B9BE55E2 /* Pods-EACheckBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EACheckBox_Example.release.xcconfig"; sourceTree = "<group>"; };
+		146A241E365F43E624ADC1B630B67A7D /* EACheckBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EACheckBox.debug.xcconfig; sourceTree = "<group>"; };
 		1DCEF83AF415D8D4490EB775C01D1F7F /* Pods-EACheckBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EACheckBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1EC6050F3F8BC355198B03B299ED9DFB /* Pods-EACheckBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EACheckBox_Example.modulemap"; sourceTree = "<group>"; };
 		23D614A298C1CF2D590821E7AFE9D6FB /* Pods-EACheckBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EACheckBox_Tests-dummy.m"; sourceTree = "<group>"; };
 		31762B0A93D4C419849D7099B02CB93F /* Pods-EACheckBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EACheckBox_Tests.modulemap"; sourceTree = "<group>"; };
+		32306F5EC807B900F8383291F1CD9D35 /* EACheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EACheckBox.modulemap; sourceTree = "<group>"; };
 		32DC0A3EF8FD10F86575542C22703BD3 /* Pods-EACheckBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EACheckBox_Example-frameworks.sh"; sourceTree = "<group>"; };
-		344C98CF1AFB01772207858EDFCF932A /* EACheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EACheckBox-umbrella.h"; sourceTree = "<group>"; };
 		378D58CCD87FB7E33D2DCF47D3D07254 /* EACheckBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EACheckBox.framework; path = EACheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4622989001F83F9340188BA4A17ADE7D /* Pods-EACheckBox_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EACheckBox_Tests-Info.plist"; sourceTree = "<group>"; };
-		4A7EB745D1AA9014E7B6299B65B659BF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EACheckBox/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		4CB2B0EF531A8338BD89B0F86AFC00F8 /* EACheckBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EACheckBox.debug.xcconfig; sourceTree = "<group>"; };
 		4DE2E155CDB1184CC229E5CFE421C26D /* Pods_EACheckBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EACheckBox_Tests.framework; path = "Pods-EACheckBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		535D574B7D27A1E86BC4B45A33E1F50C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		58FAA3746402305C90D9234CAE06822C /* Pods-EACheckBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EACheckBox_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6395F0E3BFCA04F3DE6A133B3E935987 /* EACheckBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EACheckBox.release.xcconfig; sourceTree = "<group>"; };
+		5EF0C4034E0C9FA6B8A307C327DCF66A /* EACheckBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EACheckBox.swift; path = EACheckBox/Classes/EACheckBox.swift; sourceTree = "<group>"; };
 		6607BAA710C9204EA8D7EF684CF985E5 /* Pods-EACheckBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EACheckBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		67734123B8A5B20EBE3323B6BA0ACE2F /* EACheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EACheckBox-dummy.m"; sourceTree = "<group>"; };
+		71D2A75A65AF4A5C04B7401B81EE5E21 /* EACheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EACheckBox-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7458FA9227ED8FC568E59B6B711C80C6 /* Pods-EACheckBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EACheckBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		82B90E8DBAE043A0BA1396072E61668A /* Pods_EACheckBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EACheckBox_Example.framework; path = "Pods-EACheckBox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83DB747E596E12DCC4672F3B78C60BF2 /* Pods-EACheckBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EACheckBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8D0D70A1B7496375BF587D6B3B754114 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		874CBD57E543C15CDCEDA2C1D626FB4F /* EACheckBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EACheckBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8CF7C1C5A71E768A1D3A05D49552A09B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5D0AFDB8B7614254CF094F4010DABA9 /* EACheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EACheckBox-prefix.pch"; sourceTree = "<group>"; };
-		BCFA8B1851E5CB3E54C42741600E59D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		BE363AEC98C85A47AF001CBDC1B0BB27 /* Pods-EACheckBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EACheckBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3775D61F4AD35597FA43D7BFD4C0869 /* EACheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EACheckBox-prefix.pch"; sourceTree = "<group>"; };
 		C38D5396C2DA23F406DD302A27C5C499 /* Pods-EACheckBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EACheckBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D65B836E0B61C0002875EA3FFA50480D /* EACheckBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EACheckBox-Info.plist"; sourceTree = "<group>"; };
+		D67D7BE44F8BBC908968BE4D401BFB19 /* EACheckBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EACheckBox-Info.plist"; sourceTree = "<group>"; };
 		DE76CDCB3AB6145D584DC157E8E3CA96 /* Pods-EACheckBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EACheckBox_Example-dummy.m"; sourceTree = "<group>"; };
-		E5992EF2CCA3E28A7DC98C186FA49A56 /* EACheckBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EACheckBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E7A6101E8146813C44D539C0FD33DC74 /* EACheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EACheckBox.modulemap; sourceTree = "<group>"; };
+		DF8BAA66994197DC42988D37C81FF32C /* EACheckBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EACheckBox.release.xcconfig; sourceTree = "<group>"; };
 		EB512AC0C9DBCB3DF65BC2A3E55DF455 /* Pods-EACheckBox_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EACheckBox_Example-Info.plist"; sourceTree = "<group>"; };
-		F5900B8773AA9183C366E220554935B3 /* EACheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EACheckBox-dummy.m"; sourceTree = "<group>"; };
 		F5BC5AEC52C45C2E3C33FF37F9FEBA21 /* Pods-EACheckBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EACheckBox_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,21 +100,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F963C473D582340AB794F631B19494E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E7A6101E8146813C44D539C0FD33DC74 /* EACheckBox.modulemap */,
-				F5900B8773AA9183C366E220554935B3 /* EACheckBox-dummy.m */,
-				D65B836E0B61C0002875EA3FFA50480D /* EACheckBox-Info.plist */,
-				A5D0AFDB8B7614254CF094F4010DABA9 /* EACheckBox-prefix.pch */,
-				344C98CF1AFB01772207858EDFCF932A /* EACheckBox-umbrella.h */,
-				4CB2B0EF531A8338BD89B0F86AFC00F8 /* EACheckBox.debug.xcconfig */,
-				6395F0E3BFCA04F3DE6A133B3E935987 /* EACheckBox.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EACheckBox";
-			sourceTree = "<group>";
-		};
 		10FB4266C5C55E8ACC45D5DEDB8DE726 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,20 +109,10 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1FED7CD3A7FC0CAC5AD7EC3E83E70BAC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E5992EF2CCA3E28A7DC98C186FA49A56 /* EACheckBox.podspec */,
-				BCFA8B1851E5CB3E54C42741600E59D8 /* LICENSE */,
-				8D0D70A1B7496375BF587D6B3B754114 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		23C362BC1FA210E91F306E8B129CDD38 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A95E2FA1C9EF7FE60E721EE074A00127 /* EACheckBox */,
+				9B86A221FE2D8299F3B13ADAC1BC1542 /* EACheckBox */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -183,15 +158,40 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A95E2FA1C9EF7FE60E721EE074A00127 /* EACheckBox */ = {
+		5E20D89959181BAFC8969B8D3533D1E0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4A7EB745D1AA9014E7B6299B65B659BF /* ReplaceMe.swift */,
-				1FED7CD3A7FC0CAC5AD7EC3E83E70BAC /* Pod */,
-				0F963C473D582340AB794F631B19494E /* Support Files */,
+				874CBD57E543C15CDCEDA2C1D626FB4F /* EACheckBox.podspec */,
+				8CF7C1C5A71E768A1D3A05D49552A09B /* LICENSE */,
+				535D574B7D27A1E86BC4B45A33E1F50C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9B86A221FE2D8299F3B13ADAC1BC1542 /* EACheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				5EF0C4034E0C9FA6B8A307C327DCF66A /* EACheckBox.swift */,
+				5E20D89959181BAFC8969B8D3533D1E0 /* Pod */,
+				AC544D191C961FF0A3BB2263F3298BD7 /* Support Files */,
 			);
 			name = EACheckBox;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		AC544D191C961FF0A3BB2263F3298BD7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32306F5EC807B900F8383291F1CD9D35 /* EACheckBox.modulemap */,
+				67734123B8A5B20EBE3323B6BA0ACE2F /* EACheckBox-dummy.m */,
+				D67D7BE44F8BBC908968BE4D401BFB19 /* EACheckBox-Info.plist */,
+				C3775D61F4AD35597FA43D7BFD4C0869 /* EACheckBox-prefix.pch */,
+				71D2A75A65AF4A5C04B7401B81EE5E21 /* EACheckBox-umbrella.h */,
+				146A241E365F43E624ADC1B630B67A7D /* EACheckBox.debug.xcconfig */,
+				DF8BAA66994197DC42988D37C81FF32C /* EACheckBox.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EACheckBox";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -277,7 +277,7 @@
 			buildConfigurationList = F75A9A9F5FCDC5D3B496C7B6CDABAB43 /* Build configuration list for PBXNativeTarget "EACheckBox" */;
 			buildPhases = (
 				EB720DAAB16C69639AC359370F3B9F66 /* Headers */,
-				EBC9DD5D42E0773BB6D1979F1DF3A53A /* Sources */,
+				7E549A9CE8B22F34FECB57854D0E6194 /* Sources */,
 				14F33E12FD3E35E6BD52B5F3A118330F /* Frameworks */,
 				EDE8123C5CE146489F45A9C0E39B8311 /* Resources */,
 			);
@@ -363,20 +363,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7E549A9CE8B22F34FECB57854D0E6194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDD463C1A2D698F7E1FFDD76ED306DF /* EACheckBox-dummy.m in Sources */,
+				C6DC602FC9D2675A0F1A8FB0AC9FEB59 /* EACheckBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		84E51EFA08552DF70F9A35A50B215E37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				58813A579839BF83129556D138502E85 /* Pods-EACheckBox_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EBC9DD5D42E0773BB6D1979F1DF3A53A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE1DD6BA1708584F9D02CEB0814AE563 /* EACheckBox-dummy.m in Sources */,
-				8605F64FD0AAD28FA15491CAEE29F5ED /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,7 +507,7 @@
 		};
 		782C735251B6A18042C78A72203294D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CB2B0EF531A8338BD89B0F86AFC00F8 /* EACheckBox.debug.xcconfig */;
+			baseConfigurationReference = 146A241E365F43E624ADC1B630B67A7D /* EACheckBox.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -570,7 +570,7 @@
 		};
 		7E935D322B71FD6A34320E125AE19DE1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6395F0E3BFCA04F3DE6A133B3E935987 /* EACheckBox.release.xcconfig */;
+			baseConfigurationReference = DF8BAA66994197DC42988D37C81FF32C /* EACheckBox.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import EACheckBox
 
 class ViewController: UIViewController {
 
