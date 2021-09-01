@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		35065393594802602B4F8960 /* Pods-EACheckBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EACheckBox_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EACheckBox_Tests/Pods-EACheckBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		47C3BD4F30E013EC4E16240D /* EACheckBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EACheckBox.podspec; path = ../EACheckBox.podspec; sourceTree = "<group>"; };
+		47C3BD4F30E013EC4E16240D /* EACheckBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EACheckBox.podspec; path = ../EACheckBox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		480D02B4CA6863EBB9B5670C /* Pods-EACheckBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EACheckBox_Example.release.xcconfig"; path = "Target Support Files/Pods-EACheckBox_Example/Pods-EACheckBox_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EACheckBox_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EACheckBox_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,11 +42,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		77E259ECF5CDC22FEC4341C3 /* Pods_EACheckBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EACheckBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B4160C1C4D255D3609AAA4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7B4160C1C4D255D3609AAA4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A8707F24E3A588C385A6C42D /* Pods_EACheckBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EACheckBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95151E2D9CC7B7364B093C1 /* Pods-EACheckBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EACheckBox_Example.debug.xcconfig"; path = "Target Support Files/Pods-EACheckBox_Example/Pods-EACheckBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C9C3A5B3EBB1E9B29C5633BB /* Pods-EACheckBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EACheckBox_Tests.release.xcconfig"; path = "Target Support Files/Pods-EACheckBox_Tests/Pods-EACheckBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		ED792E0CD60792823586F34C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ED792E0CD60792823586F34C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				35065393594802602B4F8960 /* Pods-EACheckBox_Tests.debug.xcconfig */,
 				C9C3A5B3EBB1E9B29C5633BB /* Pods-EACheckBox_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = BACR47Q8R4;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = BACR47Q8R4;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,6 +480,7 @@
 			baseConfigurationReference = A95151E2D9CC7B7364B093C1 /* Pods-EACheckBox_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BACR47Q8R4;
 				INFOPLIST_FILE = EACheckBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +496,7 @@
 			baseConfigurationReference = 480D02B4CA6863EBB9B5670C /* Pods-EACheckBox_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BACR47Q8R4;
 				INFOPLIST_FILE = EACheckBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35065393594802602B4F8960 /* Pods-EACheckBox_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = BACR47Q8R4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C9C3A5B3EBB1E9B29C5633BB /* Pods-EACheckBox_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = BACR47Q8R4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
