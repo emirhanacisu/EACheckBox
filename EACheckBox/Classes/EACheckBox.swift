@@ -1,13 +1,11 @@
-//
 //  EACheckBox.swift
-//  TestCrashlyticsApp
+//  EACheckBox
 //
-//  Created by emirhan Acısu on 31.08.2021.
-//
+//  Created by emirhan Acısu on 2.09.2021.
 
 import UIKit
 
-enum CheckBoxStyle {
+public enum CheckBoxStyle {
     case square
     case circle
 }
@@ -15,11 +13,12 @@ enum CheckBoxStyle {
 public class EACheckBox: UIButton {
     
     var checkBoxStyle: CheckBoxStyle!
-    var checkImage: UIImage?
-    var checkColor: UIColor?
-    var cornerRadius: CGFloat?
     var borderWidth: CGFloat?
-    var borderColor: UIColor?
+    public var checkImage: UIImage?
+    public var checkColor: UIColor?
+    public var cornerRadius: CGFloat?
+    public var borderColor: UIColor?
+    public var checkedBorderColor: UIColor?
     
     var height: CGFloat = 10
     var width: CGFloat = 10 {
@@ -28,12 +27,12 @@ public class EACheckBox: UIButton {
         }
     }
     
-    var isOn: Bool = false {
+    public var isOn: Bool = false {
         didSet {
             UIView.transition(with: self, duration: 0.2,
                               options: .transitionCrossDissolve,
                               animations: {
-                                self.selectedView.isHidden = !self.isOn ? true : false
+                                self.changeStatus()
                               })
         }
     }
@@ -52,9 +51,10 @@ public class EACheckBox: UIButton {
         super.init(coder: coder)!
     }
     
-    init(style: CheckBoxStyle?,
-         checkColor: UIColor?,
+    public init(style: CheckBoxStyle?,
+         checkColor: UIColor? = nil,
          borderColor: UIColor? = nil,
+         checkedBorderColor: UIColor? = nil,
          checkImage: UIImage? = nil,
          cornerRadius: CGFloat? = nil,
          borderWidth: CGFloat? = nil) {
@@ -62,14 +62,15 @@ public class EACheckBox: UIButton {
         defer {
             self.checkBoxStyle = style
             self.checkColor = checkColor
-            self.borderColor = borderColor
-            self.cornerRadius = cornerRadius ?? 4
-            self.checkImage = checkImage ?? UIImage(named: "ic_flag_checked")
+            self.borderColor = borderColor ?? .red
+            self.checkedBorderColor = checkedBorderColor ?? .red
+            self.cornerRadius = cornerRadius
+            self.checkImage = checkImage
             self.borderWidth = borderWidth
             self.commonInit()
         }
-        
     }
+    
     public override func layoutSubviews() {
         self.height = self.bounds.size.height
         self.width = self.bounds.size.width
@@ -77,43 +78,55 @@ public class EACheckBox: UIButton {
     
     private func commonInit() {
         addSubview(selectedView)
-        selectedView.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
-        selectedView.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
+        selectedView.translatesAutoresizingMaskIntoConstraints = false
+        selectedView.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
+        selectedView.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
         selectedView.isHidden = true
     
         self.layer.borderWidth = borderWidth ?? 1
-        self.layer.borderColor = borderColor?.cgColor ?? UIColor.blue.cgColor
+        self.layer.borderColor = borderColor?.cgColor
         self.addTarget(self, action: #selector(onPress), for: .touchUpInside)
     }
-    
-    
     
     public override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
         commonInit()
     }
+    
     func radiusSetup() {
         switch checkBoxStyle {
         case .circle:
+            self.layer.cornerRadius = width / 2
             selectedView.widthAnchor.constraint(equalToConstant: width * 0.5).isActive = true
             selectedView.heightAnchor.constraint(equalToConstant: height * 0.5).isActive = true
-            self.layer.cornerRadius = width / 2
             selectedView.layer.cornerRadius = (width * 0.5) / 2
-            selectedView.backgroundColor = checkColor
+            selectedView.backgroundColor = checkColor == nil ? .red : checkColor
+            
             if checkImage != nil {
                 selectedView.image = checkImage
             }
         case .square:
-            self.layer.cornerRadius = cornerRadius!
-            selectedView.image = checkImage
+            self.layer.cornerRadius = cornerRadius ?? 4
             selectedView.heightAnchor.constraint(lessThanOrEqualToConstant: height).isActive = true
             selectedView.widthAnchor.constraint(lessThanOrEqualToConstant: width).isActive = true
+            selectedView.image = checkImage == nil ? UIImage(named: "ic_flag_checked") : checkImage
+            
             if checkColor != nil {
                 selectedView.tintColor = checkColor
             }
             
         default:
             break
+        }
+    }
+    
+    func changeStatus() {
+        if self.isOn {
+            self.selectedView.isHidden = false
+            self.layer.borderColor = checkedBorderColor?.cgColor
+        } else {
+            self.selectedView.isHidden = true
+            self.layer.borderColor = borderColor?.cgColor
         }
     }
     
